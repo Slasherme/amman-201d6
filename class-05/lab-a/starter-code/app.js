@@ -151,7 +151,7 @@ function multiplyAnyArray(dynamicArray) { //eslint-disable-line
     var mu = 1;
     var arrStr = "" ;
     for (var i = 0; i < dynamicArray.length; i++) {
-        m = multiply(mu, dynamicArray[i])[0];
+        mu = multiply(mu, dynamicArray[i])[0];
         if (i < dynamicArray.length-1) {
             arrStr = arrStr + dynamicArray[i] + ","
         } else {
